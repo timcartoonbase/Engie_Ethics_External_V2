@@ -1,10 +1,10 @@
 var ourPurpose = bodymovin.loadAnimation({
-  container: document.getElementById('ourPurpose'),
-  path: '01_purpose.json',
+  container: document.getElementById('characters'),
+  path: '01_home.json',
   renderer: 'svg/canvas/html',
   loop: true,
   autoplay: true,
-  name: "01_purpose",
+  name: "01_home",
 });
 
 var corruption = bodymovin.loadAnimation({

@@ -232,7 +232,7 @@ button.close {
 
 /* IDS */
 #hero {
-    height: 90vh;
+    height: 91vh;
     max-height: 1080px;
     background-image: url("../assets/hero-bg.svg");
     background-repeat: no-repeat;
@@ -272,6 +272,12 @@ button.close {
     padding: 0;
     position: absolute;
     z-index: 0;
+}
+
+.home-lottie {
+    position: absolute !important;
+    margin-top: 68vh;
+    margin-left: 65vw;
 }
 
 .lottie-small {
