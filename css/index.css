@@ -357,7 +357,7 @@ button.close {
     .principles-title {
         rotate: 90deg;
     }
-    #hero { margin-bottom: 0; }
+    #hero { margin-bottom: 0;}
     .right { margin: 20px 0 0 0; }
     .chapter{ padding: 0; }
     #call-to-action { padding: 50px 0 0 0; }
@@ -374,4 +374,9 @@ button.close {
         height: 225px;
     }
     .chapters-container { background-color: white; z-index: 500; position: relative;}
+}
+
+
+@media (max-width: 800px) {
+    #hero { margin-bottom: 0; background-image: url("../assets/hero-bg-mobile.svg"); }
 }
