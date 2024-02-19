@@ -349,6 +349,7 @@ button.close {
 }
 
 @media (max-width: 1200px) {
+    h1 { font-size: 2em;}
     .main-top {
         padding-top: 50px;
     }
