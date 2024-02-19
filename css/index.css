@@ -1,17 +1,18 @@
 @font-face {
     font-family: 'RightGrotesk Narrow';
-    src: url('../assets/RightGrotesk-NarrowBold.ttf') format('truetype'); /* Corrected format value */
+    src: url('../assets/RightGrotesk-NarrowBold.ttf') format('truetype');
+    src: url('../assets/RightGrotesk-NarrowBold.otf') format('truetype');
 }
 
 @font-face {
     font-family: 'Lato';
-    src: url('../assets/Lato-Regular.ttf') format('truetype'); /* Corrected format value */
+    src: url('../assets/Lato-Regular.ttf') format('truetype');
     font-weight: normal;
 }
 
 @font-face {
     font-family: 'Lato';
-    src: url('../assets/Lato-Bold.ttf') format('truetype'); /* Corrected format value */
+    src: url('../assets/Lato-Bold.ttf') format('truetype');
     font-weight: bold;
 }
 
