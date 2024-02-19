@@ -84,5 +84,3 @@ const player = document.querySelector('#star')
     ]
   });
 });
-
-console.log(player.totalFrames)
