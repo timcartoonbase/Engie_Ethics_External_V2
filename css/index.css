@@ -350,7 +350,7 @@ button.close {
 }
 
 @media (max-width: 1200px) {
-    .heading { font-size: 2em;}
+    .heading { font-size: 2.5em; }
     .main-top {
         padding-top: 50px;
     }
@@ -360,12 +360,18 @@ button.close {
     #hero { margin-bottom: 0; }
     .right { margin: 20px 0 0 0; }
     .chapter{ padding: 0; }
-    #call-to-action { padding: 0; }
+    #call-to-action { padding: 50px 0 0 0; }
     .bubble { display: none; }
     .ch { padding-top: 50px; }
     .slide-content { padding: 50px; }
-    .slide1 { height: 700px; }
-    .slide2 { height: 700px; }
-    .slide3 { height: 700px; }
+    .slide1 { height: 500px; background-color: #00A5FF; background-image: none; }
+    .slide2 { height: 500px; }
+    .slide3 { height: 500px; }
     .home-lottie {margin-left: auto;}
+    .lottie-big {
+        position: relative;
+        width: 600px;
+        height: 225px;
+    }
+    .chapters-container { background-color: white; z-index: 500; position: relative;}
 }
